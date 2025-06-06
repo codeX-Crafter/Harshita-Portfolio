@@ -1,115 +1,253 @@
-<!-- hyper text markup language -->
-
-<!-- element vs tag  -->
-
-<!-- block elements vs inline elements -->
-
-<!-- sementic elements -->
-
-<!-- SEO IN META DATA -->
-
-<!-- lorem text 
- 
-entity tag-->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harshita | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
-    
-    <title>portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
-    
+    <header class="hero">
+      <nav class="top-nav">
+        <div class="logo">Harshita</div>
+        <ul class="nav-links">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#portfolio">Skills</a></li>
+          <li><a href="#experience">Projects</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+        <h5 class="lets_connect">Let's Connect</h5>
+      </nav>
 
-    <!-- <h1>largest tag</h1>
-    <img src="https://assets.myx.global/wp-content/uploads/2021/08/Olivia-Rodrigo-SOUR-Vinyl-1024x973.png" width="400px">
-    
-    <span>yay</span> -->
-
-    <!-- <div></div>
-    <div></div>
-    <div></div> -->
-
-    <header>
-      <h1>Harshita - design, develop, optimize.</h1>
-      <p>Built with logic. Styled with soul.</p>
-      <span class="sticker">Expressive</span>
-      <span class="sticker" style="background-color: var(--sour-pink)"
-        >Creative</span
-      >
-      <span class="sticker" style="background-color: var(--sour-blue)"
-        >Driven</span
-      >
+      <div class="hero-content">
+        <div class="hero-image">
+          <img src="images/harshita.jpg" alt="harshita" />
+        </div>
+        <div class="hola">
+          <p class="subhead">
+            I build with<br>Logic &<br />
+            Style with soul.
+          </p>
+          <h1 class="headline">Harshita Bansal</h1>
+          <p class="tag">
+            Web Developer | UI/UX Designer
+          </p>
+        </div>
+      </div>
     </header>
-
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#contacts">Contacts</a>
-      <a href="#projects">Projects</a>
-    </nav>
-
-    <section id="about">
-      Hey,This is Harshita -a first-year Computer Science Engineering student at
-      IGDTUW with a strong foundation in Data Structures and Algorithms using
-      C++, and a growing passion for full-stack web development. I enjoy solving
-      problems that challenge logic, while also crafting experiences that are
-      intuitive and user-friendly. From building efficient back-end logic to
-      designing smooth front-end interactions, I love working across the stack
-      to bring ideas to life. I also explore UI/UX design as part of my
-      development process, ensuring both function and feel align. Besides tech,
-      I participate in MUNs to sharpen my communication, leadership, and
-      critical thinking skills. I am currently expanding my skills in modern web
-      technologies and computer science fundamentals, with a drive to build
-      impactful, elegant, and efficient digital solutions.
-    </section>
-
-    <section id="skills">
-      <h2>My Toolbox</h2>
-      <span class="sticker">UI/UX</span>
-      <span class="sticker" style="background-color: var(--sour-pink)"
-        >MERN stack development</span
-      >
-      <span class="sticker" style="background-color: var(--sour-blue)"
-        >DSA in C++</span
-      >
-    </section>
-
-    <section id="projects"><h2>My projects to showcase</h2></section>
-
-    
-
-
-    
-    <section id="contacts">
-  <h2>Contact Me</h2>
-  <form action="#" method="get">
-    <div class="form-group">
-      <label for="uname">Name</label>
-      <input type="text" id="uname" name="uname" placeholder="Your full name" required />
+    <section id="about" class="about-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">About Me</h2>
     </div>
-    
-    <div class="form-group">
-      <label for="mail">E-mail</label>
-      <input type="email" id="mail" name="mail" placeholder="your@email.com" required />
-    </div>
-    
-    <div class="form-group">
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="4" placeholder="Your message..." required></textarea>
-    </div>
+    <div class="about-content two-column">
+      
 
-    <button type="submit" class="submit-btn">Send Message</button>
-  </form>
+
+      <!-- Right Column: Biography -->
+      <div class="about-text">
+        <p>Hey, I’m Harshita! I’m a first-year Computer Science Engineering student at IGDTUW, driven by the blend of logic and creativity in tech. I love tackling complex problems, crafting elegant solutions, and building seamless digital experiences. Whether it’s intuitive front-end design or optimizing back-end logic, I enjoy working across the stack, with a strong focus on UI/UX. Development, for me, is more than just code—it’s about creating experiences that resonate with users.</p>
+        <p> With a solid foundation in Data Structures and Algorithms (DSA) using C++, I thrive on writing efficient, scalable code. When I’m not coding, you’ll find me watching cricket, curating playlists, or experimenting with coffee in ways that might just be revolutionary. A perfect day? Cracking a challenging DSA problem and designing a UI that feels effortlessly intuitive. I’m still early in my journey, but that’s the best part—so much to learn, break, and rebuild better.</p>
+      </div>
+
+    </div>
+  </div>
 </section>
 
+<!-- <section id="about" class="about-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-subtitle">Let me tell you a bit about myself</p>
+    </div>
 
-<footer>
-            <p>&copy; 2025 written by Harshita Bansal</p>
-        </footer>
-    
+    <div class="about-content">
+      <div class="about-text">
+        
+        <p>Hey, I’m Harshita! I’m a first-year Computer Science Engineering student at IGDTUW, driven by the blend of logic and creativity in tech. I love tackling complex problems, crafting elegant solutions, and building seamless digital experiences. Whether it’s intuitive front-end design or optimizing back-end logic, I enjoy working across the stack, with a strong focus on UI/UX. Development, for me, is more than just code—it’s about creating experiences that resonate with users.
+        
+        </p>
+        <p>
+         With a solid foundation in Data Structures and Algorithms (DSA) using C++, I thrive on writing efficient, scalable code. When I’m not coding, you’ll find me watching cricket, curating playlists, or experimenting with coffee in ways that might just be revolutionary. A perfect day? Cracking a challenging DSA problem and designing a UI that feels effortlessly intuitive. I’m still early in my journey, but that’s the best part—so much to learn, break, and rebuild better.
+        </p>  
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+<section id="skills" class="skills-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">My Skills</h2>
+      <p class="section-subtitle">Technologies and tools I work with</p>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <h3>Frontend</h3>
+        <div class="skills-list">
+          <span class="skill-tag">HTML5</span>
+          <span class="skill-tag">CSS3</span>
+          <span class="skill-tag">JavaScript</span>
+          <span class="skill-tag">React</span>
+          
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Design</h3>
+        <div class="skills-list">
+          <span class="skill-tag">Figma</span>
+          <span class="skill-tag">Canva</span>
+          
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Backend</h3>
+        <div class="skills-list">
+          <span class="skill-tag">Node.js</span>
+          <span class="skill-tag">MongoDB</span>
+          <span class="skill-tag">Express.js</span>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="projects-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-subtitle">A showcase of my recent work</p>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-image">
+          <img src="images/project1.jpg" alt="E-commerce Website">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="btn-primary">Live Demo</a>
+              <a href="#" class="btn-secondary">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>E-commerce Platform</h3>
+          <p>A full-stack e-commerce solution built with React and Node.js</p>
+          <div class="project-tech">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>MongoDB</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-image">
+          <img src="images/project2.jpg" alt="Task Management App">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="btn-primary">Live Demo</a>
+              <a href="#" class="btn-secondary">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Task Management App</h3>
+          <p>A responsive task management application with real-time updates</p>
+          <div class="project-tech">
+            <span>Vue.js</span>
+            <span>Firebase</span>
+            <span>CSS3</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="project-card">
+        <div class="project-image">
+          <img src="images/project3.jpg" alt="Portfolio Website">
+          <div class="project-overlay">
+            <div class="project-links">
+              <a href="#" class="btn-primary">Live Demo</a>
+              <a href="#" class="btn-secondary">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Creative Portfolio</h3>
+          <p>A modern portfolio website with smooth animations and interactions</p>
+          <div class="project-tech">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="contact" class="contact-section">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="section-subtitle">Let's work together on your next project</p>
+    </div>
+
+    <div class="contact-content two-items">
+      <div class="contact-item">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <h4>Email</h4>
+          <p>harshitabansal3737@gmail.com</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <div>
+          <h4>Location</h4>
+          <p>New Delhi, India</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="social-links">
+      <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-left">
+        <h3>Harshita Bansal</h3>
+        <p>Creating digital experiences with passion and precision</p>
+      </div>
+      <div class="footer-right">
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Harshita Bansal. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+
   </body>
 </html>
